@@ -1,0 +1,46 @@
+INF1900 – Projet final
+Robot qui détecte des obstacles et qui effectue des manœuvres d’évitement
+
+Auteurs:
+    Maxime Laroche
+    Ahmed Gafsi
+    Eduardo Falluh
+    Marie-Claire Taché
+    Nemro Yapni Nji Monluh
+
+
+Nom du microcontroleur cible:
+Atmega324pa
+
+
+Compilation du projet:
+
+           - On compile le MAKEFILE de la librairie en premier qui se trouve dans le repertoire lib avec la commande make
+           - Aprés on compile le MAKEFILE du projet qui est se trouve dans le repertoire projet avec la commande make
+           - Prendre le main.hex crée et le LOAD FIRMAWARE dans le microcontroleur 
+
+Le montage a utilise est circuit.simu il est situé dans le répertoire Projet.
+
+Démarrage de la simulation:
+    
+           - Activer le voltage du bouton a precision
+           - Cliquer sur la case du bas pour activer le voltage 
+           - Demarrer la simulation 
+
+
+ ____________________________________
+    |.==================================,|
+    ||   Merci Mr Jérome Collin.        ||
+    ||   Merci A nos chargés du gr.01   ||
+    ||   Ahmad, Charles, Phillipe.      ||
+    ||     .-----                       ||
+    || /`\/      \/`\ /                 ||
+    || )_/|      |\_(/\                 ||
+    ||    \______/  /\/                 ||
+    ||    _(____)__/ /                  ||
+    ||___/ ,_ _  ___/___________________||
+    '====\___\_) |======================='
+          |______|
+          /______\
+           |_||_|
+          (__)(__)

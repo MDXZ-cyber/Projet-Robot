@@ -1,0 +1,35 @@
+
+
+DBT ; 
+ATT 8  ; 
+DAL 81  ; 
+DET ;   
+MON 90 ; # affiche matrice DEL    
+
+#tracé du robot = chiffre 3 
+TRD ; 
+TRD ; 
+MON 30;
+mre 100; 
+ATT 100;
+trg ;  
+TRD ; 
+MAV 67;
+MOF ; #etteint matrice DEL 
+
+MAV 200; 
+#allumer la DEL 3 fois 
+DBC 3;   
+DAL 81  ; 
+MRE 170;
+ATT 50;
+DET ; 
+MAR;
+DAL 150  ; 
+ATT 100;
+DET ; 
+
+
+FBC ;
+MAR ; 
+FIN ; 
